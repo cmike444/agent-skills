@@ -14,6 +14,9 @@ Structured four-phase first-principles analysis modeled on Aristotle's method: s
 ### [`letter-grading-scale`](./letter-grading-scale/SKILL.md)
 Converts any percentage score (0–100%) to a US college letter grade (A+ through F) with GPA equivalent, using the standard scale sourced from Wikipedia. Triggers when a percentage needs to be expressed as a letter grade.
 
+### [`tastytrade-api`](./tastytrade-api/SKILL.md)
+Exhaustive reference and how-to for the tastytrade Open API (REST/JSON + DXLink & account WebSocket streamers): OAuth2 auth, order construction and management (spreads, iron condors, OTO/OCO/OTOCO brackets), instruments and option chains, balances/positions/transactions, margin, market data and metrics, streaming, watchlists, and backtesting. A tight `SKILL.md` router with a full endpoint index points to focused files under [`reference/`](./tastytrade-api/reference/). Triggers on any mention of tastytrade/tastyworks, `api.tastyworks.com`, DXLink, tastytrade order JSON, or tastytrade symbology.
+
 ## Usage
 
 Reference these skills in your VS Code Copilot configuration (`.github/copilot-instructions.md` or a `.vscode/` instructions file) by pointing to the skill folder. Copilot will load the relevant `SKILL.md` when the trigger conditions are met.
